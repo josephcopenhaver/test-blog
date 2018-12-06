@@ -1,0 +1,14 @@
+{
+  "name": "test-blog",
+  "version": "0.1.0",
+  "description": "test-blog",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "vuepress": "^0.14.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:build": "yarn run vuepress build"
+  }
+}
